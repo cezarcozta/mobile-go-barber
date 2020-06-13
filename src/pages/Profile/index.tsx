@@ -177,7 +177,6 @@ const Profile: React.FC = () => {
             <UserAvatarButton onPress={handleUpdateAvatar}>
               <UserAvatar source={{ uri: user.avatar_url }} />
             </UserAvatarButton>
-
             <View>
               <Title>Meu Perfil</Title>
             </View>
