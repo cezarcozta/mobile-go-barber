@@ -143,8 +143,8 @@ const Profile: React.FC = () => {
 
         data.append('avatar', {
           type: 'image/jpeg',
-          name: `${user.id}.jpg`,
           uri: response.uri,
+          name: `${user.id}.jpg`,
         });
 
         api.patch('users/avatar', data).then((res) => {
