@@ -1,0 +1,35 @@
+<svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon Frame (edit here)">
+<g id="Icon (edit this)">
+<rect id="Background" width="110" height="110" fill="#312E38"/>
+<g id="Group 1">
+<g id="cut">
+<path id="Vector" d="M64.2409 55.5L75.7566 44.9851C76.0811 44.6887 76.0811 44.2086 75.7566 43.9129C73.4869 41.8406 69.8064 41.8406 67.5367 43.9129L59.5438 51.2114L57.8236 49.6407C58.1218 48.9508 58.2858 48.1996 58.2858 47.413C58.2858 44.0633 55.3117 41.3478 51.6429 41.3478C47.9741 41.3478 45 44.0633 45 47.413C45 50.7628 47.9741 53.4783 51.6429 53.4783C51.957 53.4783 52.265 53.458 52.5674 53.4195L54.846 55.5L52.5674 57.5805C52.265 57.542 51.9564 57.5217 51.6429 57.5217C47.9741 57.5217 45 60.2372 45 63.587C45 66.9367 47.9741 69.6522 51.6429 69.6522C55.3117 69.6522 58.2858 66.9367 58.2858 63.587C58.2858 62.8004 58.1218 62.0492 57.8236 61.3593L59.5438 59.7886L67.5367 67.0871C69.8064 69.1594 73.4869 69.1594 75.7566 67.0871C76.0811 66.7914 76.0811 66.3112 75.7566 66.0149L64.2409 55.5ZM51.6429 49.4348C50.4223 49.4348 49.4286 48.5275 49.4286 47.413C49.4286 46.2986 50.4223 45.3913 51.6429 45.3913C52.8635 45.3913 53.8572 46.2986 53.8572 47.413C53.8572 48.5275 52.8635 49.4348 51.6429 49.4348ZM51.6429 65.6087C50.4223 65.6087 49.4286 64.7014 49.4286 63.587C49.4286 62.4725 50.4223 61.5652 51.6429 61.5652C52.8635 61.5652 53.8572 62.4725 53.8572 63.587C53.8572 64.7014 52.8635 65.6087 51.6429 65.6087Z" fill="#FF9900"/>
+</g>
+</g>
+</g>
+<g id="Grid Lines (Do not edit)">
+<line id="Line 1" y1="9.125" x2="110" y2="9.125" stroke="white" stroke-opacity="0.1"/>
+<line id="Line 2" y1="19.2083" x2="110" y2="19.2083" stroke="white" stroke-opacity="0.1"/>
+<line id="Line 3" y1="29.2917" x2="110" y2="29.2917" stroke="white" stroke-opacity="0.1"/>
+<line id="Line 4" y1="39.375" x2="110" y2="39.375" stroke="white" stroke-opacity="0.1"/>
+<line id="Line 5" y1="49.4583" x2="110" y2="49.4583" stroke="white" stroke-opacity="0.1"/>
+<line id="Line 6" y1="59.5417" x2="110" y2="59.5417" stroke="white" stroke-opacity="0.1"/>
+<line id="Line 7" y1="69.625" x2="110" y2="69.625" stroke="white" stroke-opacity="0.1"/>
+<line id="Line 8" y1="79.7083" x2="110" y2="79.7083" stroke="white" stroke-opacity="0.1"/>
+<line id="Line 9" y1="89.7917" x2="110" y2="89.7917" stroke="white" stroke-opacity="0.1"/>
+<line id="Line 10" y1="99.875" x2="110" y2="99.875" stroke="white" stroke-opacity="0.1"/>
+<line id="Line 11" x1="9.125" y1="110" x2="9.12499" y2="2.00344e-08" stroke="white" stroke-opacity="0.1"/>
+<line id="Line 12" x1="19.2083" y1="110" x2="19.2083" y2="2.00344e-08" stroke="white" stroke-opacity="0.1"/>
+<line id="Line 13" x1="29.2917" y1="110" x2="29.2917" y2="2.00344e-08" stroke="white" stroke-opacity="0.1"/>
+<line id="Line 14" x1="39.375" y1="110" x2="39.375" y2="2.00344e-08" stroke="white" stroke-opacity="0.1"/>
+<line id="Line 15" x1="49.4583" y1="110" x2="49.4583" y2="2.00344e-08" stroke="white" stroke-opacity="0.1"/>
+<line id="Line 16" x1="59.5417" y1="110" x2="59.5417" y2="2.00344e-08" stroke="white" stroke-opacity="0.1"/>
+<line id="Line 17" x1="69.625" y1="110" x2="69.625" y2="2.00344e-08" stroke="white" stroke-opacity="0.1"/>
+<line id="Line 18" x1="79.7083" y1="110" x2="79.7083" y2="2.00344e-08" stroke="white" stroke-opacity="0.1"/>
+<line id="Line 19" x1="89.7917" y1="110" x2="89.7917" y2="2.00344e-08" stroke="white" stroke-opacity="0.1"/>
+<line id="Line 20" x1="99.875" y1="110" x2="99.875" y2="2.00344e-08" stroke="white" stroke-opacity="0.1"/>
+</g>
+<circle id="Safe Zone (Do not edit)" cx="55" cy="55.4583" r="32.5" stroke="black" stroke-opacity="0.1"/>
+</g>
+</svg>
