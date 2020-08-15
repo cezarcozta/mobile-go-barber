@@ -64,7 +64,8 @@ import com.android.build.OutputFile
  *
  *   // by default the gradle tasks are skipped if none of the JS files or assets change; this means
  *   // that we don't look at files in android/ or ios/ to determine whether the tasks are up to
- *   // date; if you have any other folders that you want to ignore for performance reasons (gradle
+ *   // date; if you have any other folders that you want apply from: "../../node_modules/react-native/react.gradle"
+apply from: "../../node_modules/react-native-code-push/android/codepush.gradle"to ignore for performance reasons (gradle
  *   // indexes the entire tree), add them here. Alternatively, if you have JS files in android/
  *   // for example, you might want to remove it from here.
  *   inputExcludes: ["android/**", "ios/**"],
@@ -82,7 +83,7 @@ project.ext.react = [
 ]
 
 apply from: "../../node_modules/react-native/react.gradle"
-
+apply from: "../../node_modules/react-native-code-push/android/codepush.gradle"
 /**
  * Set this to true to create two separate APKs instead of one:
  *   - An APK that only works on ARM devices
@@ -162,6 +163,11 @@ android {
     buildTypes {
         debug {
             signingConfig signingConfigs.debug
+            resValue "string", "CodePushDeploymentKey", '""'
+        }
+        releaseStaging {
+          matchingFallbacks = ['release']
+          resValue "string", "CodePushDeploymentKey", '"aWVspsbcuvH8oKkyG2trk9Vu4lHh9ZjRTzPir"'
         }
         release {
             // Caution! In production, you need to generate your own keystore file.
@@ -169,6 +175,7 @@ android {
             // signingConfig signingConfigs.release
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            resValue "string", "CodePushDeploymentKey", '"_6cJjiyhx03oaNSkmJsabiBxTM7WfdUX1-Dqq"'
         }
     }
 

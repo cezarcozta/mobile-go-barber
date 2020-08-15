@@ -2,6 +2,7 @@ package com.appgobarber;
 
 import android.app.Application;
 import android.content.Context;
+import com.microsoft.codepush.react.CodePush;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactInstanceManager;
@@ -32,6 +33,11 @@ public class MainApplication extends Application implements ReactApplication {
         @Override
         protected String getJSMainModuleName() {
           return "index";
+        }
+
+        @Override
+        protected String getJSBundleFile() {
+          return CodePush.getJSBundleFile();
         }
       };
 
